@@ -19,6 +19,8 @@ The requirements.txt file contain all Python libraries needed to learn experimen
 pip install -r requirements.txt
 ```
 
+Run the main code for downloading
+
 ```bash
 python3 main.py --txt <txt file path > --save_path <save_folder_name>
 ```
