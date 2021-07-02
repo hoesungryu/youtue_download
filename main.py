@@ -20,6 +20,7 @@ def main(args):
 
     txt = args.txt
     save_path = args.save_path
+    os.makedirs(save_path, exist_ok=True)
 
     youtube_txt = open(txt,"r+") 
     lines = youtube_txt.readlines()
