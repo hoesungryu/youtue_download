@@ -29,7 +29,7 @@ def main(args):
         downloadYouTube(line, save_path)
     
     end = time.time()
-    print(f"[INFO]| Done ... \nTotal duration:{end_time - start_time}")
+    print(f"[INFO]| Done ... \nTotal duration:{end - start_time}")
     
 if __name__== "__main__":
     main(args)
