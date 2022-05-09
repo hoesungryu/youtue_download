@@ -15,7 +15,7 @@ args = parser.parse_args()
 
 
 def main(args):
-    start = time.time()
+    start_time = time.time()
     date = datetime.now()
 
     txt = args.txt
