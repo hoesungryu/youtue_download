@@ -1,6 +1,6 @@
 # Download YouTube video using Python
 
-This code is about to directly download YouTube video using `pytube` package.
+This code is about to directly download YouTube video using `pytubefix` package.
 You can just make your own txt file, which contain YouTube address and just run the `main.py`.
 
 
@@ -22,5 +22,6 @@ pip install -r requirements.txt
 Run the main code for downloading videos
 
 ```bash
-python3 main.py --txt <txt file path > --save_path <save_folder_name>
+> python3 main.py --txt <txt file path > --save_path <save_folder_name> --resolution 1080p
+> python3 main.py --txt ./sample.txt --resolution 1080p
 ```

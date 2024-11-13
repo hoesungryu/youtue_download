@@ -1,3 +1,4 @@
-
 tqdm
-pytube
+pytubefix
+moviepy
+ffmpeg
